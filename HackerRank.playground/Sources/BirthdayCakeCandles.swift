@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
 import Foundation
 
 public func birthdayCakeCandles(candles: [Int]) -> Int {
