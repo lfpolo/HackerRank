@@ -29,7 +29,7 @@ func arrayPosToMatrixPos(arrayPos : Int, rowHeight : Int, colWidth : Int, rotati
     }
 }
 
-func matrixRotation(matrix: [[Int]], r: Int) -> Void {
+public func matrixRotation(matrix: [[Int]], r: Int) -> Void {
     var auxMatrix = matrix
     let totalSteps = min(matrix.count / 2 - 1, matrix[0].count / 2 - 1)
     for rotationStep in 0...totalSteps {
