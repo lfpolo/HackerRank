@@ -1,6 +1,6 @@
-import Foundation
+// https://www.hackerrank.com/challenges/missing-numbers/problem
 
-///problem: https://www.hackerrank.com/challenges/missing-numbers/problem
+import Foundation
 
 public func missingNumbers(arr: [Int], brr: [Int]) -> [Int] {
     var resultA : [Int: Int] = [:]

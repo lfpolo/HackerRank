@@ -1,6 +1,6 @@
-import Foundation
+// https://www.hackerrank.com/challenges/plus-minus/problem
 
-///problem: https://www.hackerrank.com/challenges/plus-minus/problem
+import Foundation
 
 func plusMinus(arr: [Int]) -> Void {
     var positives: Float = 0
