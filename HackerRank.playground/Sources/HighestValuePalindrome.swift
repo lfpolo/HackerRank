@@ -2,7 +2,7 @@
 
 import Foundation
 
-func highestValuePalindrome(s: String, n: Int, k: Int) -> String {
+public func highestValuePalindrome(s: String, n: Int, k: Int) -> String {
     var chars = Array(s)
     let end = n - 1
     var changed : [Bool] = Array(repeating: false, count: n)
