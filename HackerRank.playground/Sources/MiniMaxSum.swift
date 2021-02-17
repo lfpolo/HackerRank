@@ -2,7 +2,7 @@
 
 import Foundation
 
-func miniMaxSum(arr: [Int]) -> Void {
+public func miniMaxSum(arr: [Int]) -> Void {
     var minIndex = 0
     var maxIndex = 0
     var sum = 0
