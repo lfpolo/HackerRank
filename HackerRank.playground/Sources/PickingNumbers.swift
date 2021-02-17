@@ -2,7 +2,7 @@
 
 import Foundation
 
-func pickingNumbers(a: [Int]) -> Int {
+public func pickingNumbers(a: [Int]) -> Int {
     var dicSequences : [Int : Int] = [:]
     
     for n in 0...101 {
