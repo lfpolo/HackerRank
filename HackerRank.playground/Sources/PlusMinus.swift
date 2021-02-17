@@ -2,7 +2,7 @@
 
 import Foundation
 
-func plusMinus(arr: [Int]) -> Void {
+public func plusMinus(arr: [Int]) -> Void {
     var positives: Float = 0
     var negatives: Float = 0
     var zero: Float = 0

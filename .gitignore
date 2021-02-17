@@ -50,4 +50,6 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
